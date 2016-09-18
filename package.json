@@ -1,0 +1,23 @@
+{
+  "name": "fail-wrapper",
+  "version": "1.0.0",
+  "description": "Wraps object callback methods in intermittent failure methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jknielse/fail-wrapper.git"
+  },
+  "keywords": [
+    "fail",
+    "nodejs"
+  ],
+  "author": "Jake Nielsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jknielse/fail-wrapper/issues"
+  },
+  "homepage": "https://github.com/jknielse/fail-wrapper#readme"
+}
