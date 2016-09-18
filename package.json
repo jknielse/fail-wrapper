@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jknielse/fail-wrapper/issues"
   },
-  "homepage": "https://github.com/jknielse/fail-wrapper#readme"
+  "homepage": "https://github.com/jknielse/fail-wrapper#readme",
+  "dependencies": {
+    "seed-random": "^2.2.0"
+  }
 }
