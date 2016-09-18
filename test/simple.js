@@ -31,7 +31,7 @@ describe('Simple Tests', function () {
   });
 
   it('Test wrap first method', function (done) {
-    var wrappedObjects = failWrapper.wrap({
+    var wrappedObjects = failWrapper.objectWrap({
       failRate: 1,
       failMethods: ['method1']
     }, objectCreator);
@@ -49,7 +49,7 @@ describe('Simple Tests', function () {
   });
 
   it('Test wrap second method', function (done) {
-    var wrappedObjects = failWrapper.wrap({
+    var wrappedObjects = failWrapper.objectWrap({
       failRate: 1,
       failMethods: ['method2']
     }, objectCreator);
